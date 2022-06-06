@@ -1,2 +1,2 @@
-# DSA-JS
-Going to solve DS and Algos and will add some notes.
+# Data structures and Algorithms with JavaScript
+Some of the DS and Algo's I have been solving
