@@ -8,6 +8,7 @@ Some of the DS and Algo's I have been solving with My Favourite JavaScript
 ## Sorting Algorithm ##
 - [quick-sort](https://github.com/SwapnilGopale/DSA-JS/blob/master/Sorting-Algo/quick-sort.js)
 - [merge-sort](https://github.com/SwapnilGopale/DSA-JS/blob/master/Sorting-Algo/merge-sort.js)
+- [radix-sort](https://github.com/SwapnilGopale/DSA-JS/blob/master/Sorting-Algo/radix-sort.js)
 
 ## Problem Solving and Algorithms ##
 - [addition-fron-one-to-n](https://github.com/SwapnilGopale/DSA-JS/blob/master/Problem-Solving/With-Math/addition-fron-one-to-n.js)
