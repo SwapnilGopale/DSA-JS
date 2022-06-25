@@ -14,3 +14,6 @@ Some of the DS and Algo's I have been solving with My Favourite JavaScript
 - [addition-fron-one-to-n](https://github.com/SwapnilGopale/DSA-JS/blob/master/Problem-Solving/With-Math/addition-fron-one-to-n.js)
 - [factorial](https://github.com/SwapnilGopale/DSA-JS/blob/master/Problem-Solving/Recursion/factorial.js)
 - [is-subsequence](https://github.com/SwapnilGopale/DSA-JS/blob/master/Problem-Solving/Recursion/is-subsequence.js)
+
+## Data Structures ##
+- [Singly Linked List](https://github.com/SwapnilGopale/DSA-JS/tree/master/Data-Structures/Linked-Lists/Singly-Linked-List)
