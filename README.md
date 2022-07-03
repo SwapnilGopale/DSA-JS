@@ -15,5 +15,7 @@ Some of the DS and Algo's I have been solving with My Favourite JavaScript
 - [factorial](https://github.com/SwapnilGopale/DSA-JS/blob/master/Problem-Solving/Recursion/factorial.js)
 - [is-subsequence](https://github.com/SwapnilGopale/DSA-JS/blob/master/Problem-Solving/Recursion/is-subsequence.js)
 - [dynamic programming fibonacci series](https://github.com/SwapnilGopale/DSA-JS/blob/master/Problem-Solving/Recursion/get-nth-fibo.js)
+- [hackerrank-cut-the-sticks-problem](https://github.com/SwapnilGopale/DSA-JS/tree/master/Problem-Solving/Recursion/hackerrank-cut-the-sticks-problem)
+
 ## Data Structures ##
 - [Singly Linked List](https://github.com/SwapnilGopale/DSA-JS/tree/master/Data-Structures/Linked-Lists/Singly-Linked-List)
