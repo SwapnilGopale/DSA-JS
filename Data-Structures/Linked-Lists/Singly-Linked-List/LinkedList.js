@@ -45,14 +45,25 @@ class LinkedList {
     this.length--
   }
 
-  printLinkedList() {
+  printLinkedList(head=this.head) {
     let output="";
-    let current = this.head
+    let current = head
     while (current) {
       output = `${output}${current.value}->`
       current = current.next
     }
     return `${output}null`
+  }
+  reverseList(node){
+    let [prev,curr,next] = [null,node,null]
+    while(curr != null){
+      next = curr.next
+      curr.next = prev
+      prev = curr
+      curr = next
+    }
+    node = prev
+    return node
   }
 }
 

@@ -154,3 +154,18 @@ describe('#removeAtIndex', () => {
     })
   })
 })
+
+describe('#printOperations', () => {
+  describe('#reverseList', () => {
+    test('reverse all Items',() => {
+        const ll = new LinkedList()
+        ll.insertAtHead(10);
+        ll.insertAtHead(20);
+        ll.insertAtHead(30);
+        ll.insertAtHead(40);
+        const reversed = ll.reverseList(ll.head)
+        const print = ll.printLinkedList(reversed)
+        expect(print).toBe(`10->20->30->40->null`)
+    })
+  })
+})
