@@ -1,4 +1,4 @@
-#Steps:#
+## Steps: ##
 - Clone the project
 - try **npm test** to run the test cases
 - try **node ./ManualTest.js** to test your manual test cases
