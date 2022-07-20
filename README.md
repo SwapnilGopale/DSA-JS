@@ -18,4 +18,6 @@ Some of the DS and Algo's I have been solving with My Favourite JavaScript
 - [hackerrank-cut-the-sticks-problem](https://github.com/SwapnilGopale/DSA-JS/tree/master/Problem-Solving/Recursion/hackerrank-cut-the-sticks-problem)
 
 ## Data Structures ##
-- [Singly Linked List](https://github.com/SwapnilGopale/DSA-JS/tree/master/Data-Structures/Linked-Lists/Singly-Linked-List)
+- **Linked Lists**
+  - [Singly Linked List](https://github.com/SwapnilGopale/DSA-JS/tree/master/Data-Structures/Linked-Lists/Singly-Linked-List)
+  - [Doubly Linked List](https://github.com/SwapnilGopale/DSA-JS/blob/master/Data-Structures/Linked-Lists/Doubly-Linked-List/linked-list.js)
