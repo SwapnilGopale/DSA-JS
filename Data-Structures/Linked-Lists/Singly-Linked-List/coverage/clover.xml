@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657008786951" clover="3.2.0">
-  <project timestamp="1657008786951" name="All files">
+<coverage generated="1657012979063" clover="3.2.0">
+  <project timestamp="1657012979063" name="All files">
     <metrics statements="44" coveredstatements="44" conditionals="13" coveredconditionals="13" methods="10" coveredmethods="10" elements="67" coveredelements="67" complexity="0" loc="44" ncloc="44" packages="1" files="1" classes="1"/>
     <file name="LinkedList.js" path="/home/swapnil/Documents/swapnil-git/DSA-JS/Data-Structures/Linked-Lists/Singly-Linked-List/LinkedList.js">
       <metrics statements="44" coveredstatements="44" conditionals="13" coveredconditionals="13" methods="10" coveredmethods="10"/>
-      <line num="3" count="16" type="stmt"/>
-      <line num="4" count="16" type="stmt"/>
-      <line num="8" count="45" type="stmt"/>
-      <line num="9" count="45" type="stmt"/>
-      <line num="10" count="45" type="stmt"/>
+      <line num="3" count="17" type="stmt"/>
+      <line num="4" count="17" type="stmt"/>
+      <line num="8" count="49" type="stmt"/>
+      <line num="9" count="49" type="stmt"/>
+      <line num="10" count="49" type="stmt"/>
       <line num="14" count="12" type="cond" truecount="4" falsecount="0"/>
       <line num="16" count="6" type="stmt"/>
       <line num="17" count="6" type="stmt"/>
@@ -26,12 +26,12 @@
       <line num="42" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="44" count="1" type="stmt"/>
       <line num="45" count="1" type="stmt"/>
-      <line num="49" count="2" type="stmt"/>
-      <line num="50" count="2" type="stmt"/>
-      <line num="51" count="2" type="stmt"/>
-      <line num="52" count="8" type="stmt"/>
-      <line num="53" count="8" type="stmt"/>
-      <line num="55" count="2" type="stmt"/>
+      <line num="49" count="3" type="stmt"/>
+      <line num="50" count="3" type="stmt"/>
+      <line num="51" count="3" type="stmt"/>
+      <line num="52" count="12" type="stmt"/>
+      <line num="53" count="12" type="stmt"/>
+      <line num="55" count="3" type="stmt"/>
       <line num="58" count="1" type="stmt"/>
       <line num="59" count="1" type="stmt"/>
       <line num="60" count="4" type="stmt"/>
@@ -40,13 +40,13 @@
       <line num="63" count="4" type="stmt"/>
       <line num="65" count="1" type="stmt"/>
       <line num="66" count="1" type="stmt"/>
-      <line num="72" count="46" type="stmt"/>
-      <line num="73" count="46" type="stmt"/>
+      <line num="72" count="50" type="stmt"/>
+      <line num="73" count="50" type="stmt"/>
       <line num="77" count="1" type="stmt"/>
-      <line num="78" count="13" type="stmt"/>
-      <line num="79" count="13" type="stmt"/>
-      <line num="80" count="34" type="stmt"/>
-      <line num="82" count="13" type="stmt"/>
+      <line num="78" count="14" type="stmt"/>
+      <line num="79" count="14" type="stmt"/>
+      <line num="80" count="38" type="stmt"/>
+      <line num="82" count="14" type="stmt"/>
       <line num="85" count="1" type="stmt"/>
     </file>
   </project>

@@ -100,17 +100,6 @@ describe('#removeHead', () => {
   })
 })
 
-describe('#Display', () => {
-    test('Display all Items',() => {
-        const ll = new LinkedList()
-        ll.insertAtHead(10);
-        ll.insertAtHead(20);
-        ll.insertAtHead(30);
-        ll.insertAtHead(40);
-        const print = ll.printLinkedList()
-        expect(print).toBe(`40->30->20->10->null`)
-    })
-})
 
 describe('#removeAtIndex', () => {
   describe('with index less than 0', () => {
@@ -166,6 +155,22 @@ describe('#printOperations', () => {
         const reversed = ll.reverseList(ll.head)
         const print = ll.printLinkedList(reversed)
         expect(print).toBe(`10->20->30->40->null`)
+    })
+  })
+  describe('#Display', () => {
+    test('Display all Items without head',() => {
+        const ll = new LinkedList()
+        ll.insertAtHead(10);
+        ll.insertAtHead(20);
+        ll.insertAtHead(30);
+        ll.insertAtHead(40);
+        const print = ll.printLinkedList()
+        expect(print).toBe(`40->30->20->10->null`)
+    })
+    test('Display all Items by passing a linked list',() => {
+      const ll = LinkedList.fromValues(10,20,30,40)
+      const print = ll.printLinkedList()
+      expect(print).toBe(`10->20->30->40->null`)
     })
   })
 })
