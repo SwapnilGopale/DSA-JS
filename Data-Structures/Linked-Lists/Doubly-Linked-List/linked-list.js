@@ -82,6 +82,33 @@ class LinkedList {
         return this
     }
 
+    // insert value at index
+    insertAt(index, value) {
+        if (index === 0)
+            return this.shift(value);
+        if (index < 0 || index > this.length - 1)
+            throw Error("Index Out Of Bound")
+        const newNode = new Node(value);
+        if (index == this.length - 1) {
+            newNode.prev = this.tail
+            this.tail.next = newNode
+            this.tail = newNode
+            this.length++
+            return this
+        }
+        let current = this.head;
+        for (let i = 0; i < index; i++) {
+            current = current.next
+        }
+        newNode.prev = current.prev
+        current.prev.next = newNode
+        current.prev = newNode
+        newNode.next = current
+        this.length++
+    }
+
+    // TBD Remove the element at index
+
     // Print all the elements
     print() {
         if (!this.head) return
@@ -122,6 +149,22 @@ class LinkedList {
         }
         return -1
     }
+
+    // get value from index
+    getByIndex(index) {
+        if (index === 0)
+            return this.head;
+        if (index === this.length - 1)
+            return this.tail
+        if (index < 0 || index > this.length - 1)
+            throw Error("Index Out Of Bound")
+        let current = this.head;
+        for (let i = 0; i < index; i++) {
+            current = current.next
+        }
+        return current
+    }
+
 
 }
 
