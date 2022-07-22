@@ -1,0 +1,27 @@
+#############################################
+		   Arrays
+#############################################
+
+----------------Dynamic Array----------------
+https://www.hackerrank.com/challenges/dynamic-array/problem
+---------------------------------------------
+function dynamicArray(n, queries) {
+    // Write your code here
+    let arr = [...new Array(n)].map(x => []);
+    let [lastAnswer,output] = [0,[]];
+    
+    queries.forEach(v => {
+        let idx = (v[1] ^ lastAnswer) % n;
+        if(v[0] === 1){
+            arr[idx].push(v[2]);
+        }else if(v[0] === 2){ 
+            lastAnswer = arr[idx][v[2] % arr[idx].length];
+            output.push(lastAnswer);
+        }
+    });
+    return output;
+}
+
+----------------Arrays Left Rotation----------------
+TBD https://www.hackerrank.com/challenges/array-left-rotation/problem
+----------------------------------------------------
